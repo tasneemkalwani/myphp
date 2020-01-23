@@ -1,5 +1,10 @@
 <?php
-$std1=array("id"=>2001, "firstName"=>"Ali", "lastName"=>"Idrees" );
+$std1=array(
+    "id"=>2001, 
+    "firstName"=>"Ali", 
+    "lastName"=>"Idrees" 
+);
+
 echo "My name is".$std1["firstName"]." ".$std1["lastName"]."and my id is".$std1["id"];
 
 $std1=array("id"=>2001, "firstName"=>"Ali", "lastName"=>"Idrees" );

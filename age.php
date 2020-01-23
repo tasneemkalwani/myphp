@@ -2,7 +2,7 @@
        
        if(isset($_POST['age']))
        {
-           $age = $_POST['age'] - 2020;
+           $age = 2020 - $_POST['age'];
            echo $age;
        }      
  
